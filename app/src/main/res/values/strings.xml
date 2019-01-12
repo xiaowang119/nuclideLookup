@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">核处寻</string>
+    <!-- Strings related to login -->
+    <string name="account">Account</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">点击登录</string>
+    <string name="search">核素信息查询</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="table_bt">点击进入长式周期表</string>
+    <string name="search_tip">可输入中文名、质量数或元素符号</string>
+    <string name="element_table">\u3000\u3000化学元素周期表是根据原子序数从小至大排序的化学元素列表。
+        列表大体呈长方形，某些元素周期中留有空格，使特性相近的元素归在同一族中，
+        如碱金属元素、碱土金属、卤族元素、稀有气体等。这使周期表中形成元素分区且分有七主族、七副族、Ⅷ族、0族。
+        由于周期表能够准确地预测各种元素的特性及其之间的关系，因此它在化学及其他科学范畴中被广泛使用，
+        作为分析化学行为时十分有用的框架。\n\n\u3000\u3000俄国化学家门捷列夫(Dmitri Mendeleev)于1869年发明周期表，
+        此后不断有人提出各种类型周期表不下170余种，
+        归纳起来主要有：短式表（以门捷列夫为代表）、长式表（维尔纳式为代表）、特长表（以波尔塔式为代表）；
+        平面螺线表和圆形表（以达姆开夫式为代表）；立体周期表（以莱西的圆锥柱立体表为代表）等。
+    </string>
+    <string name="very_toxic_group">
+        148Gd、210Po、223Ra、224Ra、225Ra、226Ra、228Ra、225Ac、227Ac、227Th、228Th、229Th、230Th、231Pa、
+        230U、232U、233U、234U、236Np、 236Pu、238Pu、239Pu、240Pu、242Pu、241Am、242mAm、
+        243Am、240Cm、242Cm、243Cm、244Cm、245Cm、246Cm、248Cm、250Cm、247Bk、248Cf、249Cf、250Cf、251Cf、
+        252Cf、254Cf、253Es、254Es、257Fm、258Md
+    </string>
+    <string name="high_toxic_group">
+        10Be、32Si、44Ti、60Fe、60Co、90Sr、94Nb、106Ru、108mAg、113mCd、126Sn、144Ce、146Sm、
+        150Eu(T1=34.2a)、152Eu、154Eu、158Tb、166mHo、172Hf、178mHf、194O s、192mIr、210Pb、
+        210Bi、210mBi、212Bi、213Bi、211At、224Ac、226Ac、228Ac、226Th、227Pa、228 Pa、230Pa、
+        236U、237Np、241Pu、244Pu、241Cm、247Cm、249Bk、246Cf、253Cf、254mEs、252Fm、253Fm、
+        254Fm、255Fm、257Md、126I、193mHg、194Hg
+    </string>
+    <string name="middle_toxic_group">
+        22Na、24Na、28Mg、26Al、32P、33P、35S、 36Cl、45Ca、47Ca、44mSc、46Sc、47Sc、48Sc、48V、
+        52Mn、54Mn、52Fe、55Fe、59Fe、55Co、56Co、57Co、58Co、56Ni、57Ni、63Ni、66Ni、67Cu、62Zn、65Zn、
+        69mZn、72Zn、66Ga、67Ga、72Ga、68Ge、69Ge、77Ge、71As、72As、73As、74As、76As、77As、75Se、76Br、
+        82Br、83Rb、84Rb、86Rb、82Sr、83Sr、85Sr、89Sr、91Sr、92Sr、86Y、87Y、88Y、90Y、91Y、93Y、 86Zr、
+        88Zr、89Zr、95Zr、97Zr、90 Nb、93mNb、95Nb、95mNb、96Nb、90Mo、93Mo、99Mo、95mTc、96Tc、97mTc、
+        103Ru、99Rh、100Rh、101Rh、102Rh、102mRh、105Rh、100Pd、103Pd、109Pd、105Ag、106mAg、110mAg、
+        111Ag、109Cd、115Cd、115mCd、111In、114mIn、113Sn、117mSn、119mSn、121mSn、123Sn、125Sn、120Sb、
+        122Sb、124Sb、125Sb、126Sb、127Sb、128Sb(T1=9.01h)、129Sb、121Te、121mTe、123mTe、125mTe、127mTe、
+        129mTe、131mTe、132Te、124I、125I、126I、130I、131I、133I、135I、132Cs、134Cs、136Cs、137Cs、128Ba、
+        131Ba、133Ba、140Ba、137La、140La、134Ce、135Ce、137mCe、139Ce、141Ce、143Ce、142Pr、143Pr、138Nd、
+        147Nd、143Pm、144Pm、145Pm、146Pm、147 Pm、148Pm、148mPm、149Pm、151Pm、145Sm、151Sm、153Sm、145Eu、
+        146Eu、147Eu、148Eu、149Eu、155Eu、156Eu、157Eu、146Gd、147Gd、149Gd、151Gd、153Gd、159Gd、149Tb、
+        151Tb、154Tb、156Tb、157Tb、160Tb、161Tb、159Dy、166Dy、166Ho、169Er、172Er、167Tm、170Tm、171Tm、
+        172Tm、166Yb、169Yb、175Yb、169Lu、170Lu、171Lu、172Lu、173 Lu、174Lu、174mLu、177Lu、177mLu、
+        170Hf、175Hf、179mHf、181Hf、184Hf、179Ta、182Ta、183Ta、184Ta、188W、181Re、182Re(T1=2.67d)、
+        184Re、184mRe、186Re、188Re、189Re、182Os、185Os、191Os、193Os、186Ir(T1=15.8h)、188Ir、189Ir、
+        190Ir、192Ir、193mIr、194Ir、194mIr、188Pt、200Pt、194Au、195Au、198Au、198mAu、199Au、200mAu、
+        193mHg(无机)、194Hg、195mHg(无机)、197Hg(无机)、197mHg(无机)、203Hg、204Tl、211Pb、212Pb、214Pb、
+        203Bi、205Bi、206Bi、207Bi、214Bi、207At、222Fr、223Fr、227Ra、231Th、234Th、Th天然、232Pa、233Pa、
+        234Pa、231U、237U、240U、U天然、 234Np、235Np、236Np、 238Np、239Np、234Pu、237Pu、245Pu、
+        246Pu、240Am、242Am、244Am、238Cm、245Bk、246Bk、250Bk、244Cf、250Es、251Es、14C、C35S2、56Ni(羰基)、
+        57Ni(羰基)、63Ni(羰基)、65Ni(羰基)、66Ni(羰基)、103RuO4、106RuO4、121Te、121mTe、123mTe、125mTe、
+        127mTe、129mTe、131mTe、132Te、120I、124I、124I(甲基)、125I、125I(甲基)、126I(甲基)、130I、130I(甲基)、
+        131I、131I(甲基)、132I、132mI、133I、133I(甲基)、135I、135I(甲基)、193Hg、195Hg、195mHg、197Hg、197mHg、203Hg
+    </string>
+    <string name="low_toxic_group">
+        7Be、18F、31Si、38Cl、39Cl、40K、42K、43K、44K、45K、41Ca、43Sc、44Sc、49Sc、45Ti、47V、49V、
+        48Cr、49Cr、51Cr、51Mn、52mMn、53Mn、56Mn、58mCo、60mCo、61Co、62mCo、59Ni、65Ni、60Cu、61Cu、
+        64Cu、63Zn、69Zn、71mZn、65Ga、68Ga、70Ga、73Ga、66Ge、67Ge、71Ge、75Ge、78Ge、69As、70As、78As、
+        70Se、73Se、73mSe、79Se、81Se、81mSe、83Se、74Br、74mBr、75Br、77Br、80Br、80mBr、83Br、84Br、
+        79Rb、81Rb、81mRb、82mRb、87Rb、88Rb、89Rb、80Sr、81Sr、85mSr、87mSr、86mY、90mY、91mY、92Y 、
+        94Y、95Y、93Zr、 88Nb、89Nb、97Nb、98Nb、93mMo、101Mo、93Tc、93mTc、94Tc、94mTc、95Tc、96mTc、
+        97Tc、98Tc、99Tc、99mTc、101Tc、104Tc、94Ru、97Ru、105Ru、99mRh、101mRh、103mRh、106mRh、107Rh、
+        101Pd、107Pd、102Ag、103Ag、104Ag、104mAg、106Ag、112Ag、115Ag、104Cd、107Cd、113Cd、117Cd、
+        117mCd、109In、110In(T1=4.90h)、 110In(T2=1.15h)、 112In、113mIn、 115In、115mIn、116mIn、
+        117In、117mIn、119mIn、110Sn、111Sn、121Sn、123mSn、127Sn、128Sn、115Sb、116Sb、116mSb、117Sb、
+        118mSb、119Sb、120Sb(T2=0.265h) 、124mSb、126mSb、128Sb(T2=0.173h)、 130Sb、131Sb、116Te、
+        123Te、127Te、129Te、131Te、133Te、133mTe、134Te、120I、120mI 、 121I、123I、128I、129I 、132I、
+        132mI、 134I、125Cs、127Cs、129Cs、130Cs、131Cs、134mCs、135Cs、135m Cs、138Cs、126Ba、131mBa、
+        133mBa、135mBa、139Ba、141Ba、142Ba、131La、132La、135La、138La、141La、142La、143La、137Ce、
+        136Pr、137Pr、138mPr、139Pr、142mPr、144Pr、145Pr、147Pr、136Nd、139Nd、139mNd、141Nd、149Nd、
+        151Nd、141Pm、150Pm、141Sm、141mSm、142Sm、147Sm、155Sm、156Sm、150Eu(T2=12.6h)、152mEu、158Eu、
+        145Gd、152Gd、147Tb、150Tb、153Tb、155Tb、156mTb(T1=1.02d)、 156mTb(T2=5.00h)、155Dy、157Dy、
+        165Dy、155Ho、157Ho、159Ho、 161Ho、162Ho、162mHo、164Ho、164mHo、167Ho、161Er、165Er、171Er、
+        162Tm、166Tm、173Tm、175Tm、162Yb、167Yb、177Yb、178Yb、176Lu、176mLu、178Lu、178mLu、179Lu、
+        173Hf、177mHf、180mHf、182Hf、182mHf、183Hf、172Ta、173Ta、174Ta、175Ta、176Ta、177Ta、178Ta、
+        180Ta、180mTa、182mTa、185Ta、186Ta、176W、177W、178W、179W、 181W、185W、187W、177Re、178Re、
+        182Re(T2=12.7h)、186mRe、187Re、188mRe、180Os、181Os、189mOs、191mOs、182Ir、184Ir、185Ir、
+        186Ir(T2=1.75h)、187Ir、190mIr(T1=3.10h)、190mIr(T2=1.20h)、195Ir、195mIr、186Pt、189Pt、191Pt、
+        193Pt、193mPt、195mPt、197Pt、197mPt、199Pt、193Au、200Au、201Au、193Hg、193mHg(有机)、195Hg、
+        195mHg(有机)、197Hg(有机)、197mHg(有机)、199mHg、194Tl、194mTl、195Tl、197Tl、198Tl、198mTl、
+        199Tl、200Tl、201Tl、202Tl、195mPb、198Pb、199Pb、200Pb、201Pb、202Pb、202mPb、203Pb、205Pb、
+        209Pb、200Bi、201Bi、202Bi、203Po、205Po、207Po、232Th、235U、238U、 239U、232 Np、233Np、
+        240Np、235Pu、243Pu、237Am、238Am、239Am、244mAm、245Am、246Am、246mAm、249Cm、3H(元素)、3H(氚水)、
+        3H(有机结合氚)、3H(甲烷氚)、11C、11CO2、14CO2、11CO、14CO、35SO2、37Ar、39Ar、41Ar、59Ni、74Kr、
+        76Kr、77Kr、79Kr、81Kr、83mKr、85Kr、85mKr 、87Kr、88Kr、94RuO4、97RuO4、105RuO4、116Te、123Te、
+        127Te、129Te、131Te、133Te、133mTe、134Te、120I(甲基)、120mI、120mI(甲基)、121I、121I(甲基)、123I、
+        123I(甲基)、128I、128I(甲基)、129I、129I(甲基)、132I(甲基)、132mI(甲基)、134I、134I(甲基)、120Xe、
+        121Xe、122Xe、123Xe、125Xe、127Xe、129mXe、131mXe、133mXe、133Xe、135mXe、135Xe、138Xe、199mHg
+    </string>
+    <string-array name="adUrls">
+        <item>m.gveq.top</item>
+        <item>url.cn</item>
+        <item>xk.xdaizi.com</item>
+        <item>m.taobao.com</item>
+        <item>activity.russiango.cn/</item>
+        <item>.zz500.c</item>
+        <item>.00779.info</item>
+        <item>.10000hu.com</item>
+        <item>.10000hu.com</item>
+        <item>.100tone.com</item>
+        <item>.17173.com</item>
+        <item>.17luntan.com</item>
+        <item>.186ad.com</item>
+        <item>.1lo0.net</item>
+        <item>.37dz.com</item>
+        <item>.3ege.com</item>
+        <item>c.93hdw9.com</item>
+        <item>unicef.cn</item>
+        <item>teamviewer.com</item>
+        <item>.3vlm.com</item>
+        <item>.53kf.com</item>
+        <item>.5566ad.com</item>
+        <item>.68kkv.com</item>
+        <item>ads99.net</item>
+        <item>baidu.com</item>
+        <item>eurekaforbes.com</item>
+        <item>nord-web.xyz</item>
+    </string-array>
+
+    <drawable name="up">#8EE858</drawable>
+    <drawable name="down">#00DAE7</drawable>
+</resources>
